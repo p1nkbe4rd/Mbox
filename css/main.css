@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer li {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #C2C2C2;
+
+}
+
+body {
+    background-color: black;
+    font-family: "Mulish", sans-serif;
+    color: white;
+}
+
+header {
+    background-image: url("../img/header-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-bottom: 242px;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1499.81px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 15px 50px 15px 50px;
+}
+
+.logo {
+    display: flex;
+    width: 157px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 50%);
+}
+
+.menu {
+    width: 385px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    width: 207.81px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: black;
+}
+
+.title {
+    margin: 198px 0px 0px 245px;
+    width: 577px;
+}
+
+h1 {
+    font-family: "Marcellus";
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 70px;
+}
+
+.describeicons {
+    display: flex;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 10px;
+    align-items: center;
+    width: 280px;
+    justify-content: space-between;
+    margin: 46px 0px 25px 0px;
+}
+
+.age {
+    width: 59.75px;
+    height: 24px;
+    background-image: url("../img/border-age.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.age p {
+    padding-top: 3px;
+}
+
+.rate {
+    display: flex;
+    align-items: center;
+    width: 47px;
+    justify-content: space-between;
+}
+
+.describe {
+    width: 468px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #C2C2C2;
+    margin-bottom: 25px;
+}
+
+.btn {
+    width: 366px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-watch {
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    border-radius: 100px;
+    background-position: center;
+    width: 141px;
+    height: 50px;
+}
+
+.watch {
+    width: 81px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+.watch p {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mulish", sans-serif;
+    color: white;
+}
+
+.btn-more {
+    background: #FFFFFF;
+    border-radius: 100px;
+    background-position: center;
+    width: 195px;
+}
+
+.btn-more p {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mulish", sans-serif;
+}
+
+.line {
+    display: block;
+    margin: 0 auto 60px auto;
+    max-width: 95%;
+}
+
+.trending
+{
+    padding-bottom: 100px;
+}
+
+.container {
+    max-width: 1502px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+}
+
+.block-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+h2 {
+    font-family: "Mulish", sans-serif;
+    font-size: 28px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-left: 11px;
+}
+
+span {
+    font-family: "FontAwesome", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.witharrow {
+    display: flex;
+}
+
+.withoutarrow {
+    width: 1441px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 13px;
+}
+
+.shows {
+    margin-bottom: 60px;
+}
+
+.btn-watch p {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mulish", sans-serif;
+    color: white;
+}
+
+.movies {
+    margin-bottom: 55px;
+}
+
+.populargenres {
+    padding-bottom: 70px;
+} 
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    max-width: 1441px;
+}
+
+.genres p {
+    margin-top: 8px;
+}
+
+.element {
+    width: 182px;
+    height: 121px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38.5px 79px;
+    font-size: 28px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.genre-romance, .genre-drama, .genre-historical, .genre-action, .genre-sci, .genre-horror, .genre-comedy, .genre-documentary {
+    max-width: 340px;
+    height: 198px;
+    border-radius: 20px;
+    margin-bottom: 27px;
+}
+
+.genre-romance {
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #F383F1 100%);
+}
+
+.genre-drama {
+    background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+}
+
+.genre-historical {
+    background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+}
+
+.genre-action {
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+}
+
+.genre-sci {
+    background: linear-gradient(109.31deg, #FF6472 2.4%, #FDA75D 100%);
+}
+
+.genre-horror {
+    background: linear-gradient(110.16deg, #13547A 2.37%, #80D0C7 96.77%);
+}
+
+.genre-comedy {
+    background: linear-gradient(109.93deg, #FFF77B 2.37%, #FFBF42 50%);
+}
+
+.genre-documentary {
+    background: linear-gradient(109.31deg, #1FA2FF 2.4%, #1FA2FF 2.41%, #1F535C 97.46%);
+}
+
+.popularchannels {
+    padding-bottom: 70px;
+}
+
+.person {
+    width: 190px;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.person p {
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.actors {
+    padding-bottom: 100px;
+}
+
+.advert img, .advert .register {
+    margin-bottom: 121px;
+}
+
+.register {
+    border-radius: 20px;
+    background-image: url("../img/purple.png");
+    background-repeat: no-repeat;
+    max-width: 1224px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.wrapper {
+    display: flex;
+    max-width: 83%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 71px;
+    flex-wrap: wrap;
+}
+
+.wrapper > p {
+    text-transform: capitalize;
+    font-size: 4vw;
+    line-height: 100%;
+    font-weight: 700;
+    color: white;
+}
+
+footer {
+    background-color: #101012;
+    padding: 70px 100px 70px 100px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.socials {
+    display: flex;
+    width: 106px;
+    justify-content: space-between;
+}
+
+.logo-socials {
+    display: flex;
+    flex-wrap: wrap;
+    width: 157px;
+    height: 108px;
+    align-content: space-between;
+    margin-right: 32px;
+}
+
+.information {
+    width: 869px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoblock {
+    margin-right: 32px;
+}
+
+.bunny {
+    max-width: 100%;
+}
+
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slider-trending, .slider-channels, .slider-person {
+    position: relative;
+}
+
+.slider-trending .slick-arrow.slick-next, .slider-channels .slick-arrow.slick-next, .slider-person .slick-arrow.slick-next {
+    position: absolute;
+    top: 45%;
+    z-index: 10;
+    font-size: 0;
+    background-image: url('../img/arrow.svg');
+    width: 20px;
+    height: 34px;
+    right: 0%;
+}
+
+.slider-trending .slick-arrow.slick-next {
+    top: 45%;
+}
+
+.slider-channels .slick-arrow.slick-next{
+    top: 35%
+}
+
+.slider-person .slick-arrow.slick-next{
+    top: 35%
+}
+
+@media (min-width: 1600px) {
+    .wrapper > p {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 1067px) {
+    .title {
+        margin: 198px auto 0px auto;
+    }
+}
